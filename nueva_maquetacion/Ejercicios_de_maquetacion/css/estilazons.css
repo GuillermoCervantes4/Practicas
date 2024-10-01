@@ -1,0 +1,234 @@
+/*-------------------Maquetacion 1-----------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+
+.ejercicio1{
+    background: darkkhaki;
+    height: 90vh;
+    padding: 20px;
+    display: flex;
+}
+
+.ejercicio1 .card1{
+    height: 650px;
+    width: 350px;
+    background: white;
+    border-radius: 30px;
+    margin: 0 auto;
+    border: 3px solid black;
+    display: block;
+}
+
+.datos_carga{
+    text-align: center;
+    margin: 15px 20px;
+}
+
+.datos_carga p:nth-child(1){ 
+    font-size: 50px ; 
+    color: blueviolet
+}
+
+.datos_carga p:nth-child(2){ 
+    font-size: 12px ; 
+    color: gray;
+}
+
+.lista_archivos{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.ejercicio1 .card1 .lista_archivos p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.ejercicio1 .card1 button{
+    margin-top: 30px;
+    margin-left: 95px;
+    padding: 20px;
+    border-radius: 15px;
+    width: 150px;
+    color: white;
+    background-color: blueviolet;
+}
+
+.imagensito{
+    margin-left: 25px;
+    margin-top: 25px;
+    height: 290px;
+    width:  290px;
+}
+
+
+/*-------------------Maquetacion 2-----------------------------------------*/
+.ejercicio2{
+    background: rebeccapurple;
+    height: 90vh;
+    padding: 20px;
+    display: flex;
+}
+
+.ejercicio2 .card2{
+    height: 650px;
+    width: 350px;
+    background: white;
+    border-radius: 30px;
+    margin: 0 auto;
+    border: 3px solid black;
+    display: block;
+}
+
+.card2 .contendo .galaxia{
+    width: 125px;
+    height: 125px;
+    margin-left: 105px;
+    margin-top: 125px;
+    border-radius: 50%;
+}
+
+.card2 .contendo .datos_explica p:nth-child(1){
+    font-size: 20px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.card2 .contendo .datos_explica p:nth-child(2){
+    padding: 10px 45px 55px 45px;
+    font-size: 15px;
+    color: gray;
+    text-align: center;
+}
+
+
+.card2 .contendo button{
+    margin-top: 30px;
+    margin-left: 45px;
+    padding: 15px;
+    border-radius: 30px;
+    width: 250px;
+    color: white;
+    border: 2px solid orange;
+    background-color: orange;
+}
+
+.puntitos{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    margin-left: -15px;
+}
+
+.puntito1{
+    height: 10px;
+    width: 10px;
+    background-color: gray;
+    border-radius: 50%;
+    margin-left: 15px;
+    border: 2px solid gray;
+}
+
+.puntito2{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin-left: 15px;
+    background-color: gainsboro;
+    border: 2px solid gainsboro;
+}
+
+/*-------------------Maquetacion 3-----------------------------------------*/
+.ejercicio3{
+    background: darkgrey;
+    height: 65vh;
+    padding: 20px;
+    display: flex;
+}
+
+.ejercicio3 .card3{
+    height: 480px;
+    width: 450px;
+    background: white;
+    margin: 0 auto;
+    display: block;
+}
+
+.ejercicio3 .card3 img{
+    height: 250px;
+    width: 250px;
+    margin-top: 49px;
+    margin-left: 100px;
+}
+
+.ejercicio3 .card3 .datitos{
+    margin-bottom: 30px;
+}
+
+.ejercicio3 .card3 .datitos p:nth-child(1){
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+.ejercicio3 .card3 .datitos p:nth-child(2){
+    font-size: 15px;
+    text-align: center;
+    padding: 0 60px 0 60px;
+    color: rgb(131, 131, 131);
+}
+
+.ejercicio3 .parte_baja{
+    background: rgb(255, 0, 144);
+    height: 60px;
+}
+
+.ejercicio3 .parte_baja p{
+    color: white;
+    font-size: 25px;
+    padding: 15px 15px;
+    text-align: center;
+}
+
+/*-------------------Maquetacion 4-----------------------------------------*/
+
+.ejercicio4{
+    background-color: white;
+    height: 65vh;
+    padding: 20px;
+    display: flex;
+}
+
+.ejercicio4 .card4{
+    height: 450px;
+    width: 650px;
+    border: 18px solid black;
+    background-color: rgb(255, 250, 243);
+    margin: 0 auto;
+    display: block;
+    padding: 8px;
+}
+
+.ejercicio4 .card4 .bloque{
+    font-size: 12px;
+}
+
+.ejercicio4 .card4 .bloque .bloque1 strong{
+    font-size: 12px;
+    display: inline;
+}
+
+.ejercicio4 .card4 .bloque .bloque2 strong{
+    font-size: 12px;
+    display: inline;
+}
+
+.ejercicio4 .card4 .bloque p{
+    
+}
